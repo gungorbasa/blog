@@ -33,6 +33,15 @@
 - The apex domain is canonical. `www.gungorbasa.com` should permanently redirect to `https://gungorbasa.com` when Cloudflare is connected.
 - The Worker deployment and custom-domain activation were completed on 2026-08-28. HTTPS is live, HTTP redirects to HTTPS, `www` redirects to the apex while preserving the request path and query, and all 13 migrated article URLs return HTTP 200.
 
+## Search and AI discovery
+
+- Hugo generates `/robots.txt` with an allow-all rule and the canonical `https://gungorbasa.com/sitemap.xml` reference. Cloudflare prepends managed content signals that allow search/reference use while disallowing model-training crawlers.
+- Cloudflare AI Crawl Control allows Googlebot, BingBot, OAI-SearchBot, ChatGPT-User, Claude-SearchBot, Claude-User, PerplexityBot, Perplexity-User, Applebot, and DuckAssistBot. Training crawlers such as GPTBot and ClaudeBot remain blocked separately from their search/citation bots.
+- Each page has a canonical URL and JSON-LD; articles expose Article schema with author, publication date, topic, and word count.
+- Hugo generates `/llms.txt` from published posts so AI systems receive a concise, automatically updated map of the site, author, archive, articles, sitemap, and feed.
+- Cloudflare Crawler Hints/IndexNow was still disabled after the audit because enabling it requires accepting Cloudflare supplemental terms.
+- As of the initial 2026-08-28 check, public search queries did not yet show `gungorbasa.com` in the index. Google Search Console recognizes an existing domain property, but the signed-in `gungorbasa@gmail.com` account still needs ownership verification through Cloudflare before the sitemap can be submitted. Optionally import the verified property into Bing Webmaster Tools as well.
+
 ## Visual direction
 
 - The initial large editorial design was rejected by the user as too visually aggressive.

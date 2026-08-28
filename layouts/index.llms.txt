@@ -1,0 +1,23 @@
+# Gungor Basa
+
+> Personal technical blog by Gungor Basa, a software developer with more than ten years of experience focused on iOS, mobile products, Swift concurrency, and applied artificial intelligence.
+
+Canonical site: https://gungorbasa.com
+
+## Main pages
+
+- [Home](https://gungorbasa.com/): Profile, technical focus, and recent writing.
+- [Articles](https://gungorbasa.com/posts): Complete article archive.
+- [About](https://gungorbasa.com/about): Author background and professional links.
+
+## Articles
+
+{{ range where .Site.RegularPages "Section" "posts" -}}
+- [{{ .Title }}]({{ .Permalink }}){{ with .Description }}: {{ . | plainify }}{{ end }}
+{{ end }}
+## Discovery
+
+- [XML sitemap](https://gungorbasa.com/sitemap.xml)
+- [RSS feed](https://gungorbasa.com/index.xml)
+- [GitHub profile](https://github.com/gungorbasa)
+- [LinkedIn profile](https://www.linkedin.com/in/gungorbasa)
