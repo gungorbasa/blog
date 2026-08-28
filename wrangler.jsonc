@@ -2,10 +2,23 @@
   "$schema": "./node_modules/wrangler/config-schema.json",
   "name": "gungorbasa-blog",
   "compatibility_date": "2026-08-28",
+  "main": "./worker.js",
+  "workers_dev": true,
+  "routes": [
+    {
+      "pattern": "gungorbasa.com",
+      "custom_domain": true
+    },
+    {
+      "pattern": "www.gungorbasa.com/*",
+      "zone_name": "gungorbasa.com"
+    }
+  ],
   "assets": {
     "directory": "./public",
+    "binding": "ASSETS",
+    "run_worker_first": true,
     "html_handling": "drop-trailing-slash",
     "not_found_handling": "404-page"
   }
 }
-
