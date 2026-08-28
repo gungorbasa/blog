@@ -1,0 +1,12 @@
+{
+  "name": "gungorbasa-hugo-blog",
+  "private": true,
+  "scripts": {
+    "dev": "hugo server --disableFastRender",
+    "build": "hugo --cleanDestinationDir --gc --minify && node scripts/normalize-output.mjs",
+    "deploy": "npm run build && wrangler deploy"
+  },
+  "devDependencies": {
+    "wrangler": "^4.127.1"
+  }
+}

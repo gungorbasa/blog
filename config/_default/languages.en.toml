@@ -1,0 +1,23 @@
+locale = "en"
+label = "English"
+weight = 1
+title = "Gungor Basa"
+
+[params]
+  displayName = "EN"
+  isoCode = "en"
+  rtl = false
+  dateFormat = "2 January 2006"
+  description = "Notes on Swift, iOS, artificial intelligence, and building software."
+  images = ["/og.png"]
+
+[params.author]
+    name = "Gungor Basa"
+    headline = "Software developer focused on iOS, mobile products, and applied AI."
+    bio = "More than ten years building software. MSc in Computer Science."
+    links = [
+      { github = "https://github.com/gungorbasa" },
+      { x-twitter = "https://x.com/gbasa" },
+      { linkedin = "https://www.linkedin.com/in/gungorbasa" },
+      { medium = "https://medium.com/@gbasa" }
+    ]

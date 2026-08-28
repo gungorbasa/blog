@@ -1,0 +1,54 @@
+colorScheme = "github"
+defaultAppearance = "light"
+autoSwitchAppearance = true
+enableSearch = true
+enableCodeCopy = true
+mainSections = ["posts"]
+disableImageOptimizationMD = true
+
+[header]
+  layout = "basic"
+  mobileMenuStyle = "dropdown"
+
+[footer]
+  showCopyright = true
+  showThemeAttribution = false
+  showAppearanceSwitcher = true
+  showScrollToTop = true
+
+[homepage]
+  layout = "profile"
+  showRecent = true
+  showRecentItems = 6
+  showMoreLink = true
+  showMoreLinkDest = "/posts/"
+  cardView = false
+
+[article]
+  showDate = true
+  showDateUpdated = false
+  showAuthor = false
+  showBreadcrumbs = true
+  showDraftLabel = true
+  showEdit = false
+  showHeadingAnchors = true
+  showPagination = true
+  showReadingTime = true
+  showTableOfContents = true
+  showTaxonomies = true
+  showWordCount = false
+  sharingLinks = ["linkedin", "twitter", "reddit", "email"]
+
+[list]
+  showBreadcrumbs = false
+  showSummary = true
+  showTableOfContents = false
+  showCards = false
+  groupByYear = true
+  cardView = false
+
+[taxonomy]
+  showTermCount = true
+
+[seo]
+  metaDescriptionOrder = ["description", "summary", "site"]

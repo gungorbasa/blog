@@ -1,0 +1,18 @@
+[goldmark]
+  [goldmark.renderer]
+    unsafe = true
+
+[highlight]
+  anchorLineNos = false
+  codeFences = true
+  guessSyntax = true
+  lineNos = true
+  lineNumbersInTable = false
+  noClasses = false
+  tabWidth = 4
+
+[tableOfContents]
+  startLevel = 2
+  endLevel = 3
+  ordered = false
+
