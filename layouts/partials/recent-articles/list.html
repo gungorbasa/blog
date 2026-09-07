@@ -1,0 +1,7 @@
+{{ $recentArticles := .Site.Params.homepage.showRecentItems | default 5 }}
+
+<section class="space-y-10 w-full">
+  {{ range first $recentArticles (where .Site.RegularPages "Type" "in" .Site.Params.mainSections) }}
+    {{ partial "article-link/simple.html" . }}
+  {{ end }}
+</section>

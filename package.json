@@ -1,9 +1,11 @@
 {
   "name": "gungorbasa-hugo-blog",
   "private": true,
+  "type": "module",
   "scripts": {
     "dev": "hugo server --disableFastRender",
     "build": "hugo --cleanDestinationDir --gc --minify && node scripts/normalize-output.mjs",
+    "check": "npm run build && node scripts/check-output.mjs",
     "deploy": "npm run build && wrangler deploy"
   },
   "devDependencies": {
