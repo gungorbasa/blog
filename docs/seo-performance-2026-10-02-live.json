@@ -1,0 +1,592 @@
+{
+  "gungorbasa.com": {
+    "robots": {
+      "url": "https://gungorbasa.com/robots.txt",
+      "final_url": "https://gungorbasa.com/robots.txt",
+      "status": 200,
+      "content_type": "text/plain; charset=utf-8",
+      "hsts": "max-age=2592000",
+      "x_robots_tag": null,
+      "bytes": 3090,
+      "body": "# As a condition of accessing this website, you agree to abide by the following\n# content signals:\n\n# (a)  If a Content-Signal = yes, you may collect content for the corresponding\n#      use.\n# (b)  If a Content-Signal = no, you may not collect content for the\n#      corresponding use.\n# (c)  If the website operator does not include a Content-Signal for a\n#      corresponding use, the website operator neither grants nor restricts\n#      permission via Content-Signal with respect to the corresponding use.\n\n# The content signals and their meanings are:\n\n# search:   building a search index and providing search results (e.g., returning\n#           hyperlinks and short excerpts from your website's contents). Search does not\n#           include providing AI-generated search summaries.\n# ai-input: inputting content into one or more AI models (e.g., retrieval\n#           augmented generation, grounding, or other real-time taking of content for\n#           generative AI search answers).\n# ai-train: training or fine-tuning AI models.\n# use:      how AI systems may consume the content (immediate, reference, or full).\n\n# ANY RESTRICTIONS EXPRESSED VIA CONTENT SIGNALS ARE EXPRESS RESERVATIONS OF\n# RIGHTS UNDER ARTICLE 4 OF THE EUROPEAN UNION DIRECTIVE 2019/790 ON COPYRIGHT\n# AND RELATED RIGHTS IN THE DIGITAL SINGLE MARKET.\n\n# BEGIN Cloudflare Managed content\n\n\nUser-agent: *\nContent-Signal: search=yes,ai-train=no,use=reference\nAllow: /\n\n# Training crawlers\nUser-agent: Amazonbot\nDisallow: /\n\nUser-agent: Applebot-Extended\nDisallow: /\n\nUser-agent: Bytespider\nDisallow: /\n\nUser-agent: CCBot\nDisallow: /\n\nUser-agent: ClaudeBot\nDisallow: /\n\nUser-agent: Diffbot\nDisallow: /\n\nUser-agent: Google-Extended\nDisallow: /\n\nUser-agent: GPTBot\nDisallow: /\n\nUser-agent: omgili\nDisallow: /\n\nUser-agent: anthropic-ai\nDisallow: /\n\nUser-agent: Claude-Web\nDisallow: /\n\nUser-agent: cohere-ai\nDisallow: /\n\nUser-agent: MistralAI-Training\nDisallow: /\n\nUser-agent: meta-externalagent\nDisallow: /\n\nUser-agent: GoogleOther\nDisallow: /\n\nUser-agent: Baiduspider\nDisallow: /\n\nUser-agent: PetalBot\nDisallow: /\n\nUser-agent: AwarioSmartBot\nUser-agent: AwarioRssBot\nDisallow: /\n\nUser-agent: Google-CloudVertexBot\nDisallow: /\n\nUser-agent: QualifiedBot\nDisallow: /\n\nUser-agent: Cotoyogi\nDisallow: /\n\nUser-agent: ICC-Crawler\nDisallow: /\n\nUser-agent: atlassian-bot\nDisallow: /\n\nUser-agent: FishBot\nDisallow: /\n\nUser-agent: BorderxBot\nDisallow: /\n\nUser-agent: NavuBot\nDisallow: /\n\nUser-agent: SemrushBot-SWA\nDisallow: /\n\nUser-agent: WARDBot\nDisallow: /\n\nUser-agent: magpie-crawler\nDisallow: /\n\nUser-agent: KimiBot\nDisallow: /\n\nUser-agent: CitibotSiteCrawler\nDisallow: /\n\n# END Cloudflare Managed Content\n\n# Google merges repeated groups and prefers Allow on equally specific rules.\n# This overrides Cloudflare's managed Google-Extended Disallow without opening\n# training-only crawlers such as GPTBot and ClaudeBot.\nUser-agent: Google-Extended\nAllow: /\nContent-Signal: ai-input=yes, ai-train=yes\n\nUser-agent: *\nAllow: /\nContent-Signal: search=yes, ai-input=yes, ai-train=no\n\nSitemap: https://gungorbasa.com/sitemap.xml\n"
+    },
+    "google_extended_merged_root_rules": [
+      [
+        "disallow",
+        "/"
+      ],
+      [
+        "allow",
+        "/"
+      ]
+    ],
+    "google_extended_root_effective_allow": true,
+    "sitemap_count": 16,
+    "pages": [
+      {
+        "url": "https://gungorbasa.com/posts",
+        "final_url": "https://gungorbasa.com/posts",
+        "status": 200,
+        "content_type": "text/html",
+        "hsts": "max-age=2592000",
+        "x_robots_tag": null,
+        "bytes": 37700,
+        "canonical": "https://gungorbasa.com/posts"
+      },
+      {
+        "url": "https://gungorbasa.com/",
+        "final_url": "https://gungorbasa.com/",
+        "status": 200,
+        "content_type": "text/html",
+        "hsts": "max-age=2592000",
+        "x_robots_tag": null,
+        "bytes": 165696,
+        "canonical": "https://gungorbasa.com/"
+      },
+      {
+        "url": "https://gungorbasa.com/taking-concurrency-to-the-next-level-concurrent-calls-and-taskgroups-c8a874c095f7",
+        "final_url": "https://gungorbasa.com/taking-concurrency-to-the-next-level-concurrent-calls-and-taskgroups-c8a874c095f7",
+        "status": 200,
+        "content_type": "text/html",
+        "hsts": "max-age=2592000",
+        "x_robots_tag": null,
+        "bytes": 54361,
+        "canonical": "https://gungorbasa.com/taking-concurrency-to-the-next-level-concurrent-calls-and-taskgroups-c8a874c095f7"
+      },
+      {
+        "url": "https://gungorbasa.com/getting-the-users-location-on-ios-the-faster-way-6f0562436641",
+        "final_url": "https://gungorbasa.com/getting-the-users-location-on-ios-the-faster-way-6f0562436641",
+        "status": 200,
+        "content_type": "text/html",
+        "hsts": "max-age=2592000",
+        "x_robots_tag": null,
+        "bytes": 56443,
+        "canonical": "https://gungorbasa.com/getting-the-users-location-on-ios-the-faster-way-6f0562436641"
+      },
+      {
+        "url": "https://gungorbasa.com/basics-of-async-await-in-swift-a-new-era-of-asynchronous-programming-6bf851ce18ac",
+        "final_url": "https://gungorbasa.com/basics-of-async-await-in-swift-a-new-era-of-asynchronous-programming-6bf851ce18ac",
+        "status": 200,
+        "content_type": "text/html",
+        "hsts": "max-age=2592000",
+        "x_robots_tag": null,
+        "bytes": 51587,
+        "canonical": "https://gungorbasa.com/basics-of-async-await-in-swift-a-new-era-of-asynchronous-programming-6bf851ce18ac"
+      },
+      {
+        "url": "https://gungorbasa.com/anaconda-python-tutorial-971e2cd9ef9c",
+        "final_url": "https://gungorbasa.com/anaconda-python-tutorial-971e2cd9ef9c",
+        "status": 200,
+        "content_type": "text/html",
+        "hsts": "max-age=2592000",
+        "x_robots_tag": null,
+        "bytes": 32605,
+        "canonical": "https://gungorbasa.com/anaconda-python-tutorial-971e2cd9ef9c"
+      },
+      {
+        "url": "https://gungorbasa.com/intelligent-agents-agent-programs-main-type-of-agents-58395d3c1733",
+        "final_url": "https://gungorbasa.com/intelligent-agents-agent-programs-main-type-of-agents-58395d3c1733",
+        "status": 200,
+        "content_type": "text/html",
+        "hsts": "max-age=2592000",
+        "x_robots_tag": null,
+        "bytes": 34302,
+        "canonical": "https://gungorbasa.com/intelligent-agents-agent-programs-main-type-of-agents-58395d3c1733"
+      },
+      {
+        "url": "https://gungorbasa.com/intelligent-agents-dc5901daba7d",
+        "final_url": "https://gungorbasa.com/intelligent-agents-dc5901daba7d",
+        "status": 200,
+        "content_type": "text/html",
+        "hsts": "max-age=2592000",
+        "x_robots_tag": null,
+        "bytes": 31694,
+        "canonical": "https://gungorbasa.com/intelligent-agents-dc5901daba7d"
+      },
+      {
+        "url": "https://gungorbasa.com/what-is-ai-9114d2d7e5f4",
+        "final_url": "https://gungorbasa.com/what-is-ai-9114d2d7e5f4",
+        "status": 200,
+        "content_type": "text/html",
+        "hsts": "max-age=2592000",
+        "x_robots_tag": null,
+        "bytes": 32690,
+        "canonical": "https://gungorbasa.com/what-is-ai-9114d2d7e5f4"
+      },
+      {
+        "url": "https://gungorbasa.com/starting-udacity-self-driving-car-nanodegree-with-docker-8d26e0a1a110",
+        "final_url": "https://gungorbasa.com/starting-udacity-self-driving-car-nanodegree-with-docker-8d26e0a1a110",
+        "status": 200,
+        "content_type": "text/html",
+        "hsts": "max-age=2592000",
+        "x_robots_tag": null,
+        "bytes": 31153,
+        "canonical": "https://gungorbasa.com/starting-udacity-self-driving-car-nanodegree-with-docker-8d26e0a1a110"
+      },
+      {
+        "url": "https://gungorbasa.com/swift3-memory-leaks-135967a2fcea",
+        "final_url": "https://gungorbasa.com/swift3-memory-leaks-135967a2fcea",
+        "status": 200,
+        "content_type": "text/html",
+        "hsts": "max-age=2592000",
+        "x_robots_tag": null,
+        "bytes": 30868,
+        "canonical": "https://gungorbasa.com/swift3-memory-leaks-135967a2fcea"
+      },
+      {
+        "url": "https://gungorbasa.com/deep-learning-on-ios-part1-57a2a3849124",
+        "final_url": "https://gungorbasa.com/deep-learning-on-ios-part1-57a2a3849124",
+        "status": 200,
+        "content_type": "text/html",
+        "hsts": "max-age=2592000",
+        "x_robots_tag": null,
+        "bytes": 33619,
+        "canonical": "https://gungorbasa.com/deep-learning-on-ios-part1-57a2a3849124"
+      },
+      {
+        "url": "https://gungorbasa.com/using-g-5-xcode-makefile-autocomplete-d1f1064e2a4f",
+        "final_url": "https://gungorbasa.com/using-g-5-xcode-makefile-autocomplete-d1f1064e2a4f",
+        "status": 200,
+        "content_type": "text/html",
+        "hsts": "max-age=2592000",
+        "x_robots_tag": null,
+        "bytes": 34040,
+        "canonical": "https://gungorbasa.com/using-g-5-xcode-makefile-autocomplete-d1f1064e2a4f"
+      },
+      {
+        "url": "https://gungorbasa.com/path-to-presidency-privacy-policy-b7ef62eb4d7d",
+        "final_url": "https://gungorbasa.com/path-to-presidency-privacy-policy-b7ef62eb4d7d",
+        "status": 200,
+        "content_type": "text/html",
+        "hsts": "max-age=2592000",
+        "x_robots_tag": null,
+        "bytes": 28445,
+        "canonical": "https://gungorbasa.com/path-to-presidency-privacy-policy-b7ef62eb4d7d"
+      },
+      {
+        "url": "https://gungorbasa.com/solving-youcompleteme-requires-vim-compiled-with-python-2-x-support-problem-19d2d2c8bca1",
+        "final_url": "https://gungorbasa.com/solving-youcompleteme-requires-vim-compiled-with-python-2-x-support-problem-19d2d2c8bca1",
+        "status": 200,
+        "content_type": "text/html",
+        "hsts": "max-age=2592000",
+        "x_robots_tag": null,
+        "bytes": 29686,
+        "canonical": "https://gungorbasa.com/solving-youcompleteme-requires-vim-compiled-with-python-2-x-support-problem-19d2d2c8bca1"
+      },
+      {
+        "url": "https://gungorbasa.com/about",
+        "final_url": "https://gungorbasa.com/about",
+        "status": 200,
+        "content_type": "text/html",
+        "hsts": "max-age=2592000",
+        "x_robots_tag": null,
+        "bytes": 25574,
+        "canonical": "https://gungorbasa.com/about"
+      }
+    ],
+    "discovery": [
+      {
+        "url": "https://gungorbasa.com/llms.txt",
+        "final_url": "https://gungorbasa.com/llms.txt",
+        "status": 200,
+        "content_type": "text/plain",
+        "hsts": "max-age=2592000",
+        "x_robots_tag": null,
+        "bytes": 4419
+      },
+      {
+        "url": "https://gungorbasa.com/.well-known/security.txt",
+        "final_url": "https://gungorbasa.com/.well-known/security.txt",
+        "status": 200,
+        "content_type": "text/plain; charset=utf-8",
+        "hsts": "max-age=2592000",
+        "x_robots_tag": null,
+        "bytes": 147
+      }
+    ]
+  },
+  "retrievalkit.com": {
+    "robots": {
+      "url": "https://retrievalkit.com/robots.txt",
+      "final_url": "https://retrievalkit.com/robots.txt",
+      "status": 200,
+      "content_type": "text/plain",
+      "hsts": "max-age=31536000; includeSubDomains",
+      "x_robots_tag": null,
+      "bytes": 385,
+      "body": "# Override Cloudflare managed exclusion: equal Allow wins for Google.\nUser-agent: Google-Extended\nAllow: /\nContent-Signal: ai-input=yes, ai-train=yes\n\nUser-agent: OAI-SearchBot\nAllow: /\n\nUser-agent: Claude-SearchBot\nAllow: /\n\nUser-agent: PerplexityBot\nAllow: /\n\nUser-agent: *\nAllow: /\nContent-Signal: search=yes, ai-input=yes, ai-train=no\nSitemap: https://retrievalkit.com/sitemap.xml\n"
+    },
+    "google_extended_merged_root_rules": [
+      [
+        "allow",
+        "/"
+      ]
+    ],
+    "google_extended_root_effective_allow": true,
+    "sitemap_count": 16,
+    "pages": [
+      {
+        "url": "https://retrievalkit.com/",
+        "final_url": "https://retrievalkit.com/",
+        "status": 200,
+        "content_type": "text/html",
+        "hsts": "max-age=31536000; includeSubDomains",
+        "x_robots_tag": null,
+        "bytes": 225921,
+        "canonical": "https://retrievalkit.com/"
+      },
+      {
+        "url": "https://retrievalkit.com/documentation/",
+        "final_url": "https://retrievalkit.com/documentation/",
+        "status": 200,
+        "content_type": "text/html",
+        "hsts": "max-age=31536000; includeSubDomains",
+        "x_robots_tag": null,
+        "bytes": 90640,
+        "canonical": "https://retrievalkit.com/documentation/"
+      },
+      {
+        "url": "https://retrievalkit.com/documentation/swift/",
+        "final_url": "https://retrievalkit.com/documentation/swift/",
+        "status": 200,
+        "content_type": "text/html",
+        "hsts": "max-age=31536000; includeSubDomains",
+        "x_robots_tag": null,
+        "bytes": 193208,
+        "canonical": "https://retrievalkit.com/documentation/swift/"
+      },
+      {
+        "url": "https://retrievalkit.com/documentation/python/",
+        "final_url": "https://retrievalkit.com/documentation/python/",
+        "status": 200,
+        "content_type": "text/html",
+        "hsts": "max-age=31536000; includeSubDomains",
+        "x_robots_tag": null,
+        "bytes": 175096,
+        "canonical": "https://retrievalkit.com/documentation/python/"
+      },
+      {
+        "url": "https://retrievalkit.com/documentation/typescript/",
+        "final_url": "https://retrievalkit.com/documentation/typescript/",
+        "status": 200,
+        "content_type": "text/html",
+        "hsts": "max-age=31536000; includeSubDomains",
+        "x_robots_tag": null,
+        "bytes": 174179,
+        "canonical": "https://retrievalkit.com/documentation/typescript/"
+      },
+      {
+        "url": "https://retrievalkit.com/documentation/browser/",
+        "final_url": "https://retrievalkit.com/documentation/browser/",
+        "status": 200,
+        "content_type": "text/html",
+        "hsts": "max-age=31536000; includeSubDomains",
+        "x_robots_tag": null,
+        "bytes": 182916,
+        "canonical": "https://retrievalkit.com/documentation/browser/"
+      },
+      {
+        "url": "https://retrievalkit.com/documentation/kotlin/",
+        "final_url": "https://retrievalkit.com/documentation/kotlin/",
+        "status": 200,
+        "content_type": "text/html",
+        "hsts": "max-age=31536000; includeSubDomains",
+        "x_robots_tag": null,
+        "bytes": 159086,
+        "canonical": "https://retrievalkit.com/documentation/kotlin/"
+      },
+      {
+        "url": "https://retrievalkit.com/documentation/concepts/",
+        "final_url": "https://retrievalkit.com/documentation/concepts/",
+        "status": 200,
+        "content_type": "text/html",
+        "hsts": "max-age=31536000; includeSubDomains",
+        "x_robots_tag": null,
+        "bytes": 41085,
+        "canonical": "https://retrievalkit.com/documentation/concepts/"
+      },
+      {
+        "url": "https://retrievalkit.com/documentation/reference/",
+        "final_url": "https://retrievalkit.com/documentation/reference/",
+        "status": 200,
+        "content_type": "text/html",
+        "hsts": "max-age=31536000; includeSubDomains",
+        "x_robots_tag": null,
+        "bytes": 40478,
+        "canonical": "https://retrievalkit.com/documentation/reference/"
+      },
+      {
+        "url": "https://retrievalkit.com/documentation/troubleshooting/",
+        "final_url": "https://retrievalkit.com/documentation/troubleshooting/",
+        "status": 200,
+        "content_type": "text/html",
+        "hsts": "max-age=31536000; includeSubDomains",
+        "x_robots_tag": null,
+        "bytes": 36463,
+        "canonical": "https://retrievalkit.com/documentation/troubleshooting/"
+      },
+      {
+        "url": "https://retrievalkit.com/documentation/evidence/",
+        "final_url": "https://retrievalkit.com/documentation/evidence/",
+        "status": 200,
+        "content_type": "text/html",
+        "hsts": "max-age=31536000; includeSubDomains",
+        "x_robots_tag": null,
+        "bytes": 47431,
+        "canonical": "https://retrievalkit.com/documentation/evidence/"
+      },
+      {
+        "url": "https://retrievalkit.com/local-retrieval/",
+        "final_url": "https://retrievalkit.com/local-retrieval/",
+        "status": 200,
+        "content_type": "text/html",
+        "hsts": "max-age=31536000; includeSubDomains",
+        "x_robots_tag": null,
+        "bytes": 47145,
+        "canonical": "https://retrievalkit.com/local-retrieval/"
+      },
+      {
+        "url": "https://retrievalkit.com/graph-search/",
+        "final_url": "https://retrievalkit.com/graph-search/",
+        "status": 200,
+        "content_type": "text/html",
+        "hsts": "max-age=31536000; includeSubDomains",
+        "x_robots_tag": null,
+        "bytes": 46309,
+        "canonical": "https://retrievalkit.com/graph-search/"
+      },
+      {
+        "url": "https://retrievalkit.com/browser/",
+        "final_url": "https://retrievalkit.com/browser/",
+        "status": 200,
+        "content_type": "text/html",
+        "hsts": "max-age=31536000; includeSubDomains",
+        "x_robots_tag": null,
+        "bytes": 40677,
+        "canonical": "https://retrievalkit.com/browser/"
+      },
+      {
+        "url": "https://retrievalkit.com/swift/",
+        "final_url": "https://retrievalkit.com/swift/",
+        "status": 200,
+        "content_type": "text/html",
+        "hsts": "max-age=31536000; includeSubDomains",
+        "x_robots_tag": null,
+        "bytes": 41039,
+        "canonical": "https://retrievalkit.com/swift/"
+      },
+      {
+        "url": "https://retrievalkit.com/demo/",
+        "final_url": "https://retrievalkit.com/demo/",
+        "status": 200,
+        "content_type": "text/html",
+        "hsts": "max-age=31536000; includeSubDomains",
+        "x_robots_tag": null,
+        "bytes": 24620,
+        "canonical": "https://retrievalkit.com/demo/"
+      }
+    ],
+    "discovery": [
+      {
+        "url": "https://retrievalkit.com/llms.txt",
+        "final_url": "https://retrievalkit.com/llms.txt",
+        "status": 200,
+        "content_type": "text/plain",
+        "hsts": "max-age=31536000; includeSubDomains",
+        "x_robots_tag": null,
+        "bytes": 2255
+      },
+      {
+        "url": "https://retrievalkit.com/.well-known/security.txt",
+        "final_url": "https://retrievalkit.com/.well-known/security.txt",
+        "status": 200,
+        "content_type": "text/plain; charset=utf-8",
+        "hsts": "max-age=31536000; includeSubDomains",
+        "x_robots_tag": null,
+        "bytes": 149
+      }
+    ]
+  },
+  "plungelab.app": {
+    "robots": {
+      "url": "https://plungelab.app/robots.txt",
+      "final_url": "https://plungelab.app/robots.txt",
+      "status": 200,
+      "content_type": "text/plain",
+      "hsts": "max-age=2592000",
+      "x_robots_tag": null,
+      "bytes": 533,
+      "body": "# Google merges repeated groups and prefers Allow on equally specific rules.\n# Override Cloudflare's managed Google-Extended exclusion for Gemini grounding.\nUser-agent: Google-Extended\nAllow: /\nContent-Signal: ai-input=yes, ai-train=yes\n\nUser-agent: OAI-SearchBot\nUser-agent: ChatGPT-User\nUser-agent: PerplexityBot\nUser-agent: Perplexity-User\nUser-agent: Claude-SearchBot\nUser-agent: Claude-User\nAllow: /\n\nUser-agent: *\nAllow: /\nContent-Signal: search=yes, ai-input=yes, ai-train=no\n\nSitemap: https://plungelab.app/sitemap-index.xml\n"
+    },
+    "google_extended_merged_root_rules": [
+      [
+        "allow",
+        "/"
+      ]
+    ],
+    "google_extended_root_effective_allow": true,
+    "sitemap_count": 14,
+    "pages": [
+      {
+        "url": "https://plungelab.app/",
+        "final_url": "https://plungelab.app/",
+        "status": 200,
+        "content_type": "text/html",
+        "hsts": "max-age=2592000",
+        "x_robots_tag": null,
+        "bytes": 21725,
+        "canonical": "https://plungelab.app/"
+      },
+      {
+        "url": "https://plungelab.app/apple-watch-cold-plunge-tracker/",
+        "final_url": "https://plungelab.app/apple-watch-cold-plunge-tracker/",
+        "status": 200,
+        "content_type": "text/html",
+        "hsts": "max-age=2592000",
+        "x_robots_tag": null,
+        "bytes": 14336,
+        "canonical": "https://plungelab.app/apple-watch-cold-plunge-tracker/"
+      },
+      {
+        "url": "https://plungelab.app/cold-plunge-log/",
+        "final_url": "https://plungelab.app/cold-plunge-log/",
+        "status": 200,
+        "content_type": "text/html",
+        "hsts": "max-age=2592000",
+        "x_robots_tag": null,
+        "bytes": 14293,
+        "canonical": "https://plungelab.app/cold-plunge-log/"
+      },
+      {
+        "url": "https://plungelab.app/cold-shower-app/",
+        "final_url": "https://plungelab.app/cold-shower-app/",
+        "status": 200,
+        "content_type": "text/html",
+        "hsts": "max-age=2592000",
+        "x_robots_tag": null,
+        "bytes": 13664,
+        "canonical": "https://plungelab.app/cold-shower-app/"
+      },
+      {
+        "url": "https://plungelab.app/guides/",
+        "final_url": "https://plungelab.app/guides/",
+        "status": 200,
+        "content_type": "text/html",
+        "hsts": "max-age=2592000",
+        "x_robots_tag": null,
+        "bytes": 14579,
+        "canonical": "https://plungelab.app/guides/"
+      },
+      {
+        "url": "https://plungelab.app/guides/cold-plunge-benefits/",
+        "final_url": "https://plungelab.app/guides/cold-plunge-benefits/",
+        "status": 200,
+        "content_type": "text/html",
+        "hsts": "max-age=2592000",
+        "x_robots_tag": null,
+        "bytes": 24429,
+        "canonical": "https://plungelab.app/guides/cold-plunge-benefits/"
+      },
+      {
+        "url": "https://plungelab.app/guides/cold-plunge-for-beginners/",
+        "final_url": "https://plungelab.app/guides/cold-plunge-for-beginners/",
+        "status": 200,
+        "content_type": "text/html",
+        "hsts": "max-age=2592000",
+        "x_robots_tag": null,
+        "bytes": 27052,
+        "canonical": "https://plungelab.app/guides/cold-plunge-for-beginners/"
+      },
+      {
+        "url": "https://plungelab.app/guides/cold-plunge-journal/",
+        "final_url": "https://plungelab.app/guides/cold-plunge-journal/",
+        "status": 200,
+        "content_type": "text/html",
+        "hsts": "max-age=2592000",
+        "x_robots_tag": null,
+        "bytes": 23559,
+        "canonical": "https://plungelab.app/guides/cold-plunge-journal/"
+      },
+      {
+        "url": "https://plungelab.app/guides/cold-plunge-temperature-duration/",
+        "final_url": "https://plungelab.app/guides/cold-plunge-temperature-duration/",
+        "status": 200,
+        "content_type": "text/html",
+        "hsts": "max-age=2592000",
+        "x_robots_tag": null,
+        "bytes": 23574,
+        "canonical": "https://plungelab.app/guides/cold-plunge-temperature-duration/"
+      },
+      {
+        "url": "https://plungelab.app/guides/how-to-track-a-cold-plunge-with-apple-watch/",
+        "final_url": "https://plungelab.app/guides/how-to-track-a-cold-plunge-with-apple-watch/",
+        "status": 200,
+        "content_type": "text/html",
+        "hsts": "max-age=2592000",
+        "x_robots_tag": null,
+        "bytes": 24249,
+        "canonical": "https://plungelab.app/guides/how-to-track-a-cold-plunge-with-apple-watch/"
+      },
+      {
+        "url": "https://plungelab.app/insights/",
+        "final_url": "https://plungelab.app/insights/",
+        "status": 200,
+        "content_type": "text/html",
+        "hsts": "max-age=2592000",
+        "x_robots_tag": null,
+        "bytes": 13929,
+        "canonical": "https://plungelab.app/insights/"
+      },
+      {
+        "url": "https://plungelab.app/privacy/",
+        "final_url": "https://plungelab.app/privacy/",
+        "status": 200,
+        "content_type": "text/html",
+        "hsts": "max-age=2592000",
+        "x_robots_tag": null,
+        "bytes": 30575,
+        "canonical": "https://plungelab.app/privacy/"
+      },
+      {
+        "url": "https://plungelab.app/support/",
+        "final_url": "https://plungelab.app/support/",
+        "status": 200,
+        "content_type": "text/html",
+        "hsts": "max-age=2592000",
+        "x_robots_tag": null,
+        "bytes": 11958,
+        "canonical": "https://plungelab.app/support/"
+      },
+      {
+        "url": "https://plungelab.app/terms/",
+        "final_url": "https://plungelab.app/terms/",
+        "status": 200,
+        "content_type": "text/html",
+        "hsts": "max-age=2592000",
+        "x_robots_tag": null,
+        "bytes": 28386,
+        "canonical": "https://plungelab.app/terms/"
+      }
+    ],
+    "discovery": [
+      {
+        "url": "https://plungelab.app/llms.txt",
+        "final_url": "https://plungelab.app/llms.txt",
+        "status": 200,
+        "content_type": "text/plain",
+        "hsts": "max-age=2592000",
+        "x_robots_tag": null,
+        "bytes": 4682
+      },
+      {
+        "url": "https://plungelab.app/.well-known/security.txt",
+        "final_url": "https://plungelab.app/.well-known/security.txt",
+        "status": 200,
+        "content_type": "text/plain; charset=utf-8",
+        "hsts": "max-age=2592000",
+        "x_robots_tag": null,
+        "bytes": 146
+      }
+    ]
+  }
+}

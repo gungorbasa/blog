@@ -8,15 +8,3 @@
   pageRef = "about"
   weight = 20
 
-[[main]]
-  identifier = "search"
-  weight = 30
-  [main.params]
-    action = "search"
-
-[[main]]
-  identifier = "appearance"
-  weight = 40
-  [main.params]
-    action = "appearance"
-

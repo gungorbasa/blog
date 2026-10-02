@@ -1,0 +1,12 @@
+# Google merges repeated groups and prefers Allow on equally specific rules.
+# This overrides Cloudflare's managed Google-Extended Disallow without opening
+# training-only crawlers such as GPTBot and ClaudeBot.
+User-agent: Google-Extended
+Allow: /
+Content-Signal: ai-input=yes, ai-train=yes
+
+User-agent: *
+Allow: /
+Content-Signal: search=yes, ai-input=yes, ai-train=no
+
+Sitemap: {{ "sitemap.xml" | absURL }}
